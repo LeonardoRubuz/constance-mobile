@@ -25,6 +25,18 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "9bcda407-84bb-4179-bd41-2b29ab8f05d9"
+      }
+    },
+    "owner": "leonardorubuz",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/9bcda407-84bb-4179-bd41-2b29ab8f05d9"
     }
   }
 }
