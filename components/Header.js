@@ -9,7 +9,9 @@ function Header() {
                 name="menu"
                 size={30}
             />
-            <Text>Constance</Text>
+            <Text style={{fontSize : 20}}>
+                Constance
+            </Text>
             <View style={styles.rightCorner}>
                 <IconButton icon="search" />
                 <IconButton icon="shopping-bag" />
