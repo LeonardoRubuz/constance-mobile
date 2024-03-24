@@ -11,7 +11,7 @@ export default function App() {
       <View style={styles.container}>
         <Header />
         <View>
-          <SmallButton label="Small Button" />
+          <SmallButton label="small button" theme="dark" />
         </View>
         <Footer />
       </View>

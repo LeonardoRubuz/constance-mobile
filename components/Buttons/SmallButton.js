@@ -1,11 +1,18 @@
 import { Pressable, StyleSheet, Text } from "react-native";
 
-function SmallButton({label}) {
-    return ( 
-        <Pressable style={[styles.common, styles.dark]}>
-            <Text style={styles.textStyle}> {label} </Text>
-        </Pressable>
-     );
+function SmallButton({label, theme}) {
+    if (theme==='dark') {
+        return ( 
+            <Pressable style={[styles.common, styles.dark]}>
+                <Text style={[styles.textStyle, {color : "white"}]}> {label} </Text>
+            </Pressable>
+         );
+    }
+        return ( 
+            <Pressable style={[styles.common, styles.light]}>
+                <Text style={[styles.textStyle, {color : 'black'}]}> {label} </Text>
+            </Pressable>
+         );
 }
 
 const styles = StyleSheet.create({
@@ -25,7 +32,6 @@ const styles = StyleSheet.create({
     },
     textStyle : {
         textTransform : "uppercase",
-        color : "white"
     }
 })
 
