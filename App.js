@@ -4,6 +4,7 @@ import { StyleSheet, Text, View } from 'react-native';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import SmallButton from './components/Buttons/SmallButton';
+import LargeButton from './components/Buttons/LargeButton';
 
 export default function App() {
   return (
@@ -12,6 +13,7 @@ export default function App() {
         <Header />
         <View>
           <SmallButton label="small button" theme="dark" />
+          <LargeButton label="large button" theme="dark" />
         </View>
         <Footer />
       </View>
