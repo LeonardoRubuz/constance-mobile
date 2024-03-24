@@ -13,8 +13,8 @@ function Header() {
                 Constance
             </Text>
             <View style={styles.rightCorner}>
-                <IconButton icon="search" />
-                <IconButton icon="shopping-bag" />
+                <IconButton icon="search" isMaterial={true}/>
+                <IconButton icon="shopping-bag" isMaterial={true} />
             </View>
         </View>
      );

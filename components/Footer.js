@@ -26,14 +26,13 @@ function Footer() {
 const styles = StyleSheet.create({
     footer : {
         height : 340,
-        borderWidth : 4,
-        borderStyle : 'solid',
         justifyContent : 'space-between',
         alignItems : 'center' 
     },
     socialIcons : {
         flexDirection : 'row',
-        gap : 20
+        gap : 20,
+        marginTop : 10
     },
     contact : {},
     links : {
