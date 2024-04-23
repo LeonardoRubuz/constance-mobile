@@ -1,15 +1,13 @@
+import { NavigationContainer } from '@react-navigation/native';
 import { StatusBar } from 'react-native';
 import { StyleSheet, Text, View, SafeAreaView } from 'react-native';
 
 
 export default function App() {
   return (
-    <> 
-      <View style={styles.container}>
-        <Text>Constance shop</Text>
-      </View>
-      <StatusBar style="auto" />
-    </>
+    <NavigationContainer>
+      
+    </NavigationContainer>
   );
 }
 
