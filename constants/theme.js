@@ -11,3 +11,18 @@ const COLORS = {
 
     black : ""
 }
+
+const FONTS = {
+    title : {
+        regular : "",
+        medium : "",
+        bold : ""
+    },
+    body : {
+        regular : "",
+        medium : "",
+        bold : ""
+    },
+}
+
+export { COLORS, FONTS }
