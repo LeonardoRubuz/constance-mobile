@@ -1,15 +1,14 @@
 import { NavigationContainer } from '@react-navigation/native';
-import { StyleSheet, Text, View, SafeAreaView } from 'react-native';
-import LoginNavigation from "./naviations/LoginNavigation";
-import AppNavigation from "./naviations/AppNavigation";
+import LoginNavigation from "./navigations/LoginNavigation";
+import AppNavigation from "./navigations/AppNavigation";
+import { StatusBar } from 'react-native';
 
-
+const isLogged = false;
 export default function App() {
   return (
     <NavigationContainer>
-      <LoginNavigation />
-      <AppNavigation />
+      {isLogged ? <AppNavigation /> : <LoginNavigation />}
+      <StatusBar />
     </NavigationContainer>
   );
 }
-

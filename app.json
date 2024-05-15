@@ -37,6 +37,14 @@
     },
     "updates": {
       "url": "https://u.expo.dev/9bcda407-84bb-4179-bd41-2b29ab8f05d9"
-    }
+    },
+    "plugins" : [
+      [
+        "expo-font",
+        {
+          "fonts" : ["./assets/fonts/Lato-Regular.ttf"]
+        }
+      ]
+    ]
   }
 }

@@ -7,7 +7,7 @@ import SignUpScreen from "../screens/SignUpScreen";
 const Stack = createNativeStackNavigator();
 function LoginNavigation() {
     return ( 
-        <Stack.Navigator>
+        <Stack.Navigator screenOptions={{headerShown:false}}>
             <Stack.Screen name="Introduction" component={IntroductionScreen} />
             <Stack.Screen name="Home" component={HomeScreen} />
             <Stack.Screen name="Login" component={LoginScreen} />

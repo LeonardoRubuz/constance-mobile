@@ -1,5 +1,5 @@
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
-import PricingsListScreen from "../screens/PricingsLIstScreen";
+import PricingsListScreen from "../screens/PricingsListScreen";
 import RateScreen from "../screens/RateScreen"
 
 const Stack = createNativeStackNavigator();
