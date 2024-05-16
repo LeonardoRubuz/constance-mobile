@@ -1,12 +1,12 @@
 import { Text } from "react-native";
 import { SIZES } from "../../constants";
 
-function LargeTitle({text}) {
+function MediumTitle({text}) {
     return ( 
-        <Text style={{fontSize:SIZES.font.xLarge, fontWeight:700}}>
+        <Text style={{fontSize:SIZES.font.large, fontWeight:700}}>
             {text}
         </Text>
      );
 }
 
-export default LargeTitle;
+export default MediumTitle;

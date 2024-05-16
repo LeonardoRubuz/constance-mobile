@@ -6,7 +6,8 @@ const screenStyles = StyleSheet.create({
         flex : 1,
         alignItems : "center",
         justifyContent : "space-around",
-        marginVertical : SIZES.font.xxLarge
+        marginVertical : SIZES.font.xxLarge,
+        marginHorizontal : SIZES.font.xxLarge
     },
     screen : {
         flex: 1,
