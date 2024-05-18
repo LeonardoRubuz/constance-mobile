@@ -21,6 +21,11 @@ const SIZES = {
         medium : onePercentWidth * 35,
         large : onePercentWidth * 50,
         xLarge : onePercentWidth * 75
+    },
+    spacing : {
+        small : 12.5,
+        medium : 25,
+        large : 50
     }
 }
 
